@@ -3,7 +3,7 @@ name: Database Migration CI
 
 on:
   push:
-    branches: [ main ] # מריץ את האוטומציה בכל דחיפה לענף הראשי
+    branches: [ master ] # מריץ את האוטומציה בכל דחיפה לענף הראשי
 
 jobs:
   migrate:
