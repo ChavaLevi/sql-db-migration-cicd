@@ -54,7 +54,7 @@ def run_migrations():
 
     conn.close()
     print("✅ Migration completed successfully winn!")
-#rvf
+    print("testing connection string:")
 
 if __name__ == "__main__":
     run_migrations()
