@@ -39,7 +39,7 @@ def build_connection_string():
 
 def run_migrations():
     conn_str = build_connection_string()
-
+    print (conn_str)
     conn = pyodbc.connect(conn_str)
     conn.autocommit = True
     cursor = conn.cursor()
@@ -53,8 +53,8 @@ def run_migrations():
             cursor.execute(f.read())
 
     conn.close()
-    print("✅ Migration completed successfully!")
-
+    print("✅ Migration completed successfully winn!")
+    print("testing connection string:")
 
 if __name__ == "__main__":
     run_migrations()
