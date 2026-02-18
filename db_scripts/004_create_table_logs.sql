@@ -7,7 +7,7 @@ BEGIN
         LogDate DATETIME DEFAULT GETDATE(),
         LogLevel NVARCHAR(50)
     );
-    PRINT 'Table SystemLogs created successfully.';
+    PRINT 'Table SystemLogs created successfullybnm.';
 END
 ELSE
 BEGIN
