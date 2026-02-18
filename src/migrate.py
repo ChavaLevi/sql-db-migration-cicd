@@ -53,7 +53,7 @@ def run_migrations():
             cursor.execute(f.read())
 
     conn.close()
-    print("✅ Migration completed successfully!")
+    print("✅ Migration completed successfully winn!")
 
 
 if __name__ == "__main__":
