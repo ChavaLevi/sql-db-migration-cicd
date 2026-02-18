@@ -5,7 +5,7 @@ IF NOT EXISTS (
       AND type = N'U'
 )
 BEGIN
-    CREATE TABLE dbo.news (
+    CREATE TABLE dbo.users (
         id INT IDENTITY(1,1) PRIMARY KEY,
         username NVARCHAR(50) NOT NULL,
         created_at DATETIME DEFAULT GETDATE()
