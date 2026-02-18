@@ -8,6 +8,7 @@ BEGIN
         LogLevel NVARCHAR(50)
     );
     PRINT 'Table SystemLogs created successfully.';
+ 
 END
 ELSE
 BEGIN
