@@ -39,7 +39,7 @@ def build_connection_string():
 
 def run_migrations():
     conn_str = build_connection_string()
-
+    print (conn_str)
     conn = pyodbc.connect(conn_str)
     conn.autocommit = True
     cursor = conn.cursor()
